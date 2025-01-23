@@ -1,5 +1,15 @@
 module PopSimOtherTools
+using Reexport
 
-# Write your package code here.
+
+@reexport using PopSimBase
+
+export SLiM, Msprime
+
+using Random
+
+include("slim.jl")
+include("msprime.jl")
+
 
 end

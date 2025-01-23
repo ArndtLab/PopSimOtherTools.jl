@@ -3,5 +3,19 @@ uuid = "815cba6c-817c-4129-96fa-0a4c55d2f473"
 authors = ["Peter Arndt <arndt@molgen.mpg.de> and contributors"]
 version = "0.1.0"
 
+[deps]
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+PopSimBase = "e60d1b08-a48f-4b5c-9e89-ad4b39d64fb4"
+PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+
 [compat]
+CSV = "0.10.15"
+DataFrames = "1.7.0"
+PopSimBase = "0.2.1"
+PyCall = "1.96.4"
+Random = "1.11.0"
+Reexport = "1.2.2"
 julia = "1.10"
