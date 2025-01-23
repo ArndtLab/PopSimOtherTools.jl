@@ -1,0 +1,7 @@
+name = "PopSimOtherTools"
+uuid = "815cba6c-817c-4129-96fa-0a4c55d2f473"
+authors = ["Peter Arndt <arndt@molgen.mpg.de> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1.10"
